@@ -23,7 +23,7 @@ value++;
     while (true) {
         if (checkPrime(value)) { return value; }
         value++;
-    }
+    }  
 }
 
 uint64_t sumPrime(uint64_t hbound) {
