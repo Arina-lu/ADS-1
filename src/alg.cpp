@@ -31,5 +31,5 @@ uint64_t sumPrime(uint64_t hbound) {
     for (uint64_t i = 2; i < hbound; i++) {
         if (checkPrime(i)) { su += i; }
     }
-    return su;
+    return su;    
 }
